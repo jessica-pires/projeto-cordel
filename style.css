@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font01: Verdana Geneva, Tahoma, sans-serif;
+    --font02:'Passion One', cursive;
+    --font03:'Sriracha', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font01);
+
+}
+
+
+.cabecalho{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+    
+
+    
+}
+.cabecalho_titulo{
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-family: var(--font02);
+
+   
+
+}
+a{
+    color: white;
+   text-decoration: none;
+   font-weight: bolder;
+
+}
+a:hover{
+    color: rgb(6, 42, 6);
+    text-decoration:  underline;
+}
+section  pre {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font03);
+    font-size: 3.5vw;
+
+}
+
+
+.caixa_normal{
+    background-color: white;
+   color: black;
+    
+   
+}
+.caixa_imagem{
+    
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.416);
+}
+
+.caixa_imagem_texto{
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px #000;
+    background-color: rgba(0, 0, 0, 0.417);
+    color: white;
+   
+   
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+#img01{
+    background-image:url(img/fundo-flor-joaninha.jpg) ;
+    background-position: right center;
+
+}
+#img02{
+    background-image: url(img/fundo-text.jpg);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 16px;
+}
