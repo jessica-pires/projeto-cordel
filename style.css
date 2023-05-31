@@ -78,7 +78,7 @@ section  pre {
 
 
 
-.caixa_imagem > pre{
+.caixa_imagem  pre p{
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px #000;
